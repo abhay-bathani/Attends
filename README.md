@@ -31,11 +31,11 @@
 </head>
 <body>
 
-    <h1>Attendance Management System</h1>
+<h1>Attendance Management System</h1>
 
-    <p>This is an Android-based <strong>Attendance Management System</strong> that allows users to manage students and their attendance records. The app also includes a login system and features like adding, deleting, and calculating attendance percentages.</p>
+<p>This is an Android-based <strong>Attendance Management System</strong> that allows users to manage students and their attendance records. The app also includes a login system and features like adding, deleting, and calculating attendance percentages.</p>
 
-    <h2>Features</h2>
+<h2>Features</h2>
     <ul>
         <li><strong>Login System</strong>: Users can sign in using a username and password stored in a local SQLite database.</li>
         <li><strong>Student Management</strong>: Add, view, and delete students with their roll numbers and names.</li>
@@ -43,7 +43,7 @@
         <li><strong>SQLite Database</strong>: All student and attendance data are stored in a local SQLite database.</li>
     </ul>
 
-    <h2>Project Structure</h2>
+<h2>Project Structure</h2>
     <ul>
         <li><strong>DBHelper</strong>: Handles SQLite database operations for users and students. It provides methods to add students, update attendance, and calculate attendance percentages.</li>
         <li><strong>LoginP</strong>: The login activity where users can enter their username and password to log in. It also includes an eye button to toggle password visibility.</li>
@@ -53,16 +53,16 @@
         <li><strong>Student</strong>: Represents a student object containing <code>id</code>, <code>rollNumber</code>, and <code>name</code>.</li>
     </ul>
 
-    <h2>Getting Started</h2>
+<h2>Getting Started</h2>
 
-    <h3>Prerequisites</h3>
-    <ul>
+<h3>Prerequisites</h3>
+<ul>
         <li>Android Studio</li>
         <li>Android SDK</li>
         <li>Minimum SDK Version: 21 (Android 5.0 Lollipop)</li>
     </ul>
 
-    <h3>Setup</h3>
+<h3>Setup</h3>
     <ol>
         <li><strong>Clone the repository</strong>:
             <pre><code>git clone https://github.com/your-username/attendance-management-system.git</code></pre>
@@ -72,7 +72,7 @@
         <li><strong>Run the app</strong> on an Android device or emulator.</li>
     </ol>
 
-    <h2>Database</h2>
+<h2>Database</h2>
     <p>The app uses <strong>SQLite</strong> for local data storage. The <code>DBHelper</code> class handles database creation, user authentication, and attendance management.</p>
     <p>Two tables are created in the database:</p>
     <ul>
@@ -80,19 +80,19 @@
         <li><code>students</code>: Stores the student details and attendance records.</li>
     </ul>
 
-    <h2>Functionality</h2>
+<h2>Functionality</h2>
     <ul>
         <li><strong>Login Page</strong>: Users can log in by entering their username and password. Password visibility can be toggled using the eye button.</li>
         <li><strong>Student Management</strong>: Add new students by entering a roll number and name. Delete students by selecting them from the list.</li>
         <li><strong>Attendance</strong>: Mark students as present or absent using checkboxes. View the attendance percentage for each student.</li>
     </ul>
 
-    <h2>Screenshots</h2>
+<h2>Screenshots</h2>
 
-    <h3>1. Login Page</h3>
+<h3>1. Login Page</h3>
     <img src="screenshots/login.png" alt="Login Page" width="300">
 
-    <h3>2. Student List</h3>
+<h3>2. Student List</h3>
     <img src="screenshots/student-list.png" alt="Student List" width="300">
 
 </body>
