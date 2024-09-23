@@ -9,6 +9,7 @@
     android:visibility="visible"
     tools:context=".LoginP">
 
+    <!-- Username EditText -->
     <EditText
         android:id="@+id/editTextText5"
         android:layout_width="330dp"
@@ -18,13 +19,14 @@
         android:layout_marginEnd="41dp"
         android:backgroundTint="@color/buttonColor"
         android:ems="10"
-        android:hint="username"
+        android:hint="Username"
         android:inputType="text"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
+    <!-- Header ImageView -->
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="228dp"
@@ -37,21 +39,43 @@
         app:layout_constraintVertical_bias="0.126"
         app:srcCompat="@drawable/header" />
 
-    <EditText
-        android:id="@+id/editTextText8"
+    <!-- RelativeLayout to wrap password EditText and eye button -->
+    <RelativeLayout
+        android:id="@+id/passwordContainer"
         android:layout_width="330dp"
         android:layout_height="48dp"
         android:layout_marginStart="41dp"
         android:layout_marginTop="23dp"
         android:layout_marginEnd="41dp"
-        android:backgroundTint="@color/buttonColor"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText5">
 
+        <!-- Password EditText -->
+        <EditText
+            android:id="@+id/editTextText8"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/buttonColor"
+            android:paddingEnd="50dp"
+            android:ems="10" />
+
+        <!-- Eye Icon Button to toggle password visibility -->
+        <ImageButton
+            android:id="@+id/eyeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/editTextText8"
+            android:layout_alignBottom="@id/editTextText8"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_eye_closed"
+            android:contentDescription="Show/Hide Password"
+            android:padding="8dp" />
+    </RelativeLayout>
+
+    <!-- Sign In Button -->
     <Button
         android:id="@+id/button"
         android:layout_width="334dp"
@@ -64,7 +88,6 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText8" />
-
+        app:layout_constraintTop_toBottomOf="@+id/passwordContainer" /> <!-- Constrained to RelativeLayout -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
