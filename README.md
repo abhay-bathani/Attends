@@ -67,7 +67,10 @@
 <h3>1. Login Page</h3>
     <img src="login.png" alt="Login Page" width="300">
 
-<h3>2. Student List</h3>
+ <h3>2. Home Page</h3>
+    <img src="home.png" alt="Login Page" width="300">   
+
+<h3>3. StudentList Page</h3>
     <img src="studentlist.png" alt="Student List" width="300">
 
 </body>
