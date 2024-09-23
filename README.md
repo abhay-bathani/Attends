@@ -65,10 +65,10 @@
 <h2>Screenshots</h2>
 
 <h3>1. Login Page</h3>
-    <img src="screenshots/login.png" alt="Login Page" width="300">
+    <img src="login.png" alt="Login Page" width="300">
 
 <h3>2. Student List</h3>
-    <img src="screenshots/student-list.png" alt="Student List" width="300">
+    <img src="studentlist.png" alt="Student List" width="300">
 
 </body>
 </html>
