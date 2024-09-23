@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ListView
+        android:id="@+id/studentListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addStudentButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_back"
+            android:layout_marginRight="5dp"
+            android:text="Add Student"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/deleteStudentButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_back"
+            android:layout_marginLeft="5dp"
+            android:text="Delete Student"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:textColor="#FFFFFF"
+        android:text="Done"/>
+
+
+    <Button
+        android:id="@+id/checkAttendanceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Attendance"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
