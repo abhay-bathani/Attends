@@ -3,31 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attendance Management System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            font-size: 90%;
-            color: #c7254e;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-left: 4px solid #c7254e;
-            overflow-x: auto;
-        }
-    </style>
 </head>
 <body>
 
@@ -56,7 +31,7 @@
 <h2>Getting Started</h2>
 
 <h3>Prerequisites</h3>
-<ul>
+    <ul>
         <li>Android Studio</li>
         <li>Android SDK</li>
         <li>Minimum SDK Version: 21 (Android 5.0 Lollipop)</li>
