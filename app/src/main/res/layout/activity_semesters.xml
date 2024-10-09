@@ -297,7 +297,6 @@
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
     </GridLayout>
     <TextView
         android:id="@+id/textView"
